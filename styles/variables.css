@@ -1,4 +1,8 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --cover-image: url(../images/cover-image-dark.png);
+  --cover-color: #000028;
+  --title-name-font-color: #db00ff;
+  --accent-color: #ff0070;
+  --title-name-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --main-text-color: #F1B2CE;
+}
