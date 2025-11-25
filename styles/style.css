@@ -155,6 +155,12 @@
   align-self: start;
 }
 
+.horizontal_section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
 .section_article {
   display: grid;
   grid-template-columns: 1fr;
@@ -280,8 +286,20 @@
     align-self: baseline;
   }
 
+  .horizontal_section {
+    grid-column: 1 / 3;
+    grid-row: 3 / auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .horizontal_section .section_article {
+    grid-column: auto;
+  }
+
   .horizontal_section .section-title {
-    grid-column: 1 / auto;
+    grid-column: 1;
     grid-row: 1 / auto;
   }
 
