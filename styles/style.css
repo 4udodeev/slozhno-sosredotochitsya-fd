@@ -294,10 +294,6 @@
     gap: 20px;
   }
 
-  .horizontal_section .section_article {
-    grid-column: auto;
-  }
-
   .horizontal_section .section-title {
     grid-column: 1;
     grid-row: 1 / auto;
